@@ -1,0 +1,99 @@
+:root {
+  --roxa: #9b30f9;
+  --roxaclara: #aa88ff;
+  --roxamediu: #84e;
+  --roxaescura: #70e;
+  --rosa: #c1f;
+  --preta: #0e1013;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*elementos basicos*/
+body {
+  background: #0e1013;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d0e0f;
+}
+.logo {
+  color: var(--roxaescura);
+  font-family: "arial black", times;
+  font-size: 40px;
+  margin: 5px 0px 10px 20px;
+}
+header nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+}
+header nav a:hover {
+  color: var(--roxa);
+}
+nav {
+  margin: 20px;
+}
+/*filme principal*/
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/vikings-header.jpg);
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.descriçao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  width: 50%;
+}
+.titulo {
+  font-size: 40px;
+  margin-left: 15px;
+}
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 15px;
+  font-size: 12px;
+  transition: 2s ease all;
+  font-family: "Rubik";
+}
+.botao:hover {
+  background: var(--roxaclara);
+}
+
+.botao i {
+  margin-right: 8px;
+}
+.filme-principal .containers {
+  width: 75%;
+}
+nav a {
+  font-family: "Rubik";
+  font-size: 20px;
+  padding-left: 20px;
+}
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.titulo-filmes {
+  margin: 20px;
+  border-bottom: solid 4px var(--rosa);
+}

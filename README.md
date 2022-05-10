@@ -1,7 +1,7 @@
 
 # Clone-FLix
 
-🤠🤠Projeto produzido no intuito de obter grandes aprendizados sobre o desenvolvimento de game  , no bootcamp da  Digital Innovation One.
+🤠🤠Projeto produzido no intuito de obter conhecimento como desenvolver um site como netflix ,foi uma experiencia incrivel criar um site que e acessado por milhares de pessoas você poder aprender como ele praticamente foi criado.
 
 ## Utilizando 
 
